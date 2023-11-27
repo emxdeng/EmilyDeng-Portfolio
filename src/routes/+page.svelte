@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import '@fontsource/abhaya-libre';
 </script>
 
 <svelte:head>
@@ -10,50 +8,65 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
+	<div class="emily"></div>
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+	<div class="links">
+		<a class="link about underline" href="/about">About</a>
+	</div>
 </section>
 
 <style>
+	section {
+		display: flex;
+	}
+
+	.link {
+		font-family: 'Abhaya Libre', serif;
+		font-size: 120px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		color: white;
+		position: relative;
+		z-index: 2;
+	}
+
+	.link:hover {
+		text-decoration: none;
+		font-style: italic;
+	}
+
+	.about:before {
+		content: 'About';
+		position: absolute;
+		left: 8px;
+		color: black;
+	}
+
+	.underline:after {
+		content: '';
+		position: absolute;
+		width: 380px;
+		height: 30px;
+		margin: auto;
+		z-index: -1;
+		background-color: #fdc2c1;
+		left: -10px;
+		bottom: 30px;
+	}
+
+	.design::before {
+		content: 'Design';
+		position: absolute;
+		left: 8px;
+		color: black;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex: 0.6;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
