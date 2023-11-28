@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>About</h1>
+	<h1>Design</h1>
 
 	<h2>Blahblah</h2>
 
@@ -18,12 +18,11 @@
 
 <style>
 	.text-column {
-		z-index: 9999;
+		z-index: 3;
 		background-color: rgba(255, 255, 255, 0.7);
-		border-radius: 30px;
 		padding: 40px;
-		width: 80%;
-		height: 80%;
+		position: fixed;
+		width: 100%;
 	}
 
 	h1 {

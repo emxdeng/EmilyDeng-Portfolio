@@ -3,9 +3,12 @@
 </script>
 
 <div class="app">
-	<main>
-		<slot />
-	</main>
+	<div class="background">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<main>
+			<slot />
+		</main>
+	</div>
 </div>
 
 <style>
@@ -18,6 +21,17 @@
 		}
 	}
 
+	@media screen and (max-width: 480px) {
+		.background {
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+			position: relative;
+			top: 380px;
+			left: 50px;
+		}
+	}
+
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -25,7 +39,7 @@
 		position: relative;
 	}
 
-	.app::before {
+	.background::before {
 		content: '';
 		position: absolute;
 		top: 0;
@@ -36,8 +50,9 @@
 		background-size: auto 100%;
 		background-position: center;
 		background-repeat: no-repeat;
+		max-width: 100%;
 		opacity: 0;
-		animation: fadeInBackground 2s ease-in-out forwards; /* Adjust the duration and timing function as needed */
+		animation: fadeInBackground 1s ease-in-out forwards; /* Adjust the duration and timing function as needed */
 	}
 
 	main {

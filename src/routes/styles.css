@@ -98,3 +98,98 @@ button:focus:not(:focus-visible) {
 	width: 1px;
 	white-space: nowrap;
 }
+
+
+.link {
+	font-family: 'Abhaya Libre', serif;
+	font-size: 115px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	color: white;
+	position: relative;
+	z-index: 9999;
+	left: 330px;
+	bottom: -45px;
+}
+
+.link:hover {
+	text-decoration: none;
+	font-style: italic;
+}
+
+.about:before {
+	content: 'About';
+	position: absolute;
+	left: 8px;
+	color: black;
+}
+
+.design:before {
+	content: 'Design';
+	position: absolute;
+	left: 8px;
+	color: black;
+}
+
+.code:before {
+	content: 'Code';
+	position: absolute;
+	left: 8px;
+	color: black;
+}
+
+.play:before {
+	content: 'Play';
+	position: absolute;
+	left: 8px;
+	color: black;
+}
+
+.pink-underline:after {
+	content: '';
+	position: absolute;
+	width: 380px;
+	height: 30px;
+	margin: auto;
+	z-index: -1;
+	background-color: #fdc2c1;
+	left: -10px;
+	bottom: 35px;
+}
+
+.green-underline:after {
+	content: '';
+	position: absolute;
+	width: 380px;
+	height: 30px;
+	margin: auto;
+	z-index: -1;
+	background-color: #f1f6ef;
+	left: -10px;
+	bottom: 35px;
+}
+
+.blue-underline:after {
+	content: '';
+	position: absolute;
+	width: 380px;
+	height: 30px;
+	margin: auto;
+	z-index: -1;
+	background-color: #c2d3dc;
+	left: -10px;
+	bottom: 35px;
+}
+
+.yellow-underline:after {
+	content: '';
+	position: absolute;
+	width: 380px;
+	height: 30px;
+	margin: auto;
+	z-index: -1;
+	background-color: #fdf1f0;
+	left: -10px;
+	bottom: 35px;
+}
