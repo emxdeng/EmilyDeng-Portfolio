@@ -144,6 +144,11 @@
 		}
 	}
 
+	.link:hover {
+		text-decoration: none;
+		font-style: italic;
+	}
+
 	.lines {
 		position: fixed;
 		top: 200px;

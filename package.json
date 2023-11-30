@@ -33,6 +33,7 @@
 	"dependencies": {
 		"@fontsource-variable/inter": "^5.0.15",
 		"@fontsource-variable/lora": "^5.0.9",
+		"@fontsource-variable/merriweather-sans": "^5.0.9",
 		"@fontsource/abhaya-libre": "^5.0.17"
 	}
 }
