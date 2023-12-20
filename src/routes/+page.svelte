@@ -93,7 +93,7 @@
 			<br />
 			<a class="link code green-underline" href="/">Code</a>
 			<br />
-			<a class="link play blue-underline" href="/">Play</a>
+			<a class="link play blue-underline" href="/play">Play</a>
 			<br />
 			<a class="link about yellow-underline" href="/about">About</a>
 		</div>
