@@ -23,7 +23,7 @@
 			<div class="projects">
 				<div class="project">
 					<h2>
-						<a href="/">PX Resources</a>
+						<a href="design/pxresources">PX Resources</a>
 					</h2>
 					<h3>Commercial - SquareSpace Website - Branding | Design | Development</h3>
 				</div>
