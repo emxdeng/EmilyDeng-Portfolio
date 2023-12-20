@@ -91,7 +91,7 @@
 		<div class="links">
 			<a class="link design pink-underline" href="/design">Design</a>
 			<br />
-			<a class="link code green-underline" href="/">Code</a>
+			<a class="link code green-underline" href="https://github.com/emxdeng">Code</a>
 			<br />
 			<a class="link play blue-underline" href="/play">Play</a>
 			<br />
