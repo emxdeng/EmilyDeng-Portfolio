@@ -122,6 +122,10 @@
 </div>
 
 <style>
+	.background::before {
+		content: none; /* This will remove the background */
+	}
+
 	.container {
 		display: flex;
 		justify-content: space-between; /* This will create space between the left and right divs */
@@ -163,8 +167,6 @@
 		background-color: rgba(255, 255, 255, 0.7);
 		border-radius: 30px;
 		padding: 40px;
-		width: 80%;
-		height: 80%;
 	}
 
 	h1 {
