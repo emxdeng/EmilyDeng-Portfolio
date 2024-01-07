@@ -89,7 +89,7 @@
 
 	<div class="links-container">
 		<div class="links">
-			<a class="link design pink-underline" href="/design">Design</a>
+			<a class="link design pink-underline" href="https://uxfol.io/e608b9e8">Design</a>
 			<br />
 			<a class="link code green-underline" href="https://github.com/emxdeng">Code</a>
 			<br />
