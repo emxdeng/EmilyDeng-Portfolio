@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Emily Deng</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
